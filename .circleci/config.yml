@@ -18,7 +18,7 @@ workflows:
     jobs:
       - hugo/build:
           html-proofer: true
-          source: quickstart/
+          source: src/
       - deploy:
           filters:
             branches:
