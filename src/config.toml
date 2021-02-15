@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "www.webguru.ca/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
