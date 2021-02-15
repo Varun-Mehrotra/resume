@@ -1,4 +1,4 @@
-baseurl = "www.webguru.ca/"
+baseurl = "webguru.ca/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
@@ -60,7 +60,7 @@ paginate = 5
     [languages.en.params.logo]
       logoText = "Varun"
       logoHomeLink = "/"
-    # 
+    #
     # [languages.en.menu]
     #   [[languages.en.menu.main]]
     #     identifier = "about"
