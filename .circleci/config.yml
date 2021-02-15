@@ -10,8 +10,8 @@ jobs:
           at: my-site
       - run: ls -lah my-site
       - aws-cli/setup
-      - run: aws s3 rm s3://webguru.ca/public/ --recursive
-      - run: aws s3 cp my-site/public/ s3://webguru.ca/ --recursive
+      - run: aws s3 rm s3://$SITE_NAME/public/ --recursive
+      - run: aws s3 cp my-site/public/ s3://$SITE_NAME/ --recursive
 
 workflows:
   main:
